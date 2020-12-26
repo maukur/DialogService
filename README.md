@@ -43,3 +43,6 @@ class PurchaseViewModel: DialogProtocol {
 }
 ```
 
+#Sample 
+![alt text](https://github.com/maukur/DialogService/blob/master/Resources/ActionSheet.png "Action Sheet")
+
