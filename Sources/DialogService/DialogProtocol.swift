@@ -8,11 +8,11 @@
 
 import SwiftEventBus
 
-protocol DialogProtocol {
+public protocol DialogProtocol {
     
 }
 
-extension DialogProtocol {
+public extension DialogProtocol {
     func showActionSheet(title: String? = nil,
                          message: String? = nil,
                          actions: [String] = [],
