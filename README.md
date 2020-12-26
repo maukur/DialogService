@@ -2,13 +2,13 @@
 
 A Dialog Service for easy way using from buisness logic layer for UIKit and SwiftUI
 
-# Setup Swift PM
+# Setup with Swift PM
 
-⋅⋅⋅Add ‘DialogService’ to your Project’s ‘Swift Packages’ section.⋅⋅⋅
-⋅⋅⋅Input desired version.⋅⋅⋅
-⋅⋅⋅Adding package dependencies to your App.⋅⋅⋅
+1. Add ‘DialogService’ to your Project’s ‘Swift Packages’ section.
+2. Input desired version.
+3. Adding package dependencies to your App.
 
----
+
 
 # Usage 
 
@@ -44,9 +44,11 @@ class PurchaseViewModel: DialogProtocol {
 }
 ```
 
----
+
 
 # Sample 
-![alt text](https://github.com/maukur/DialogService/blob/master/Resources/ActionSheet.png "Action Sheet")
+
 ![alt text](https://github.com/maukur/DialogService/blob/master/Resources/Alert.png "Alert")
+![alt text](https://github.com/maukur/DialogService/blob/master/Resources/ActionSheet.png "Action Sheet")
+
 
