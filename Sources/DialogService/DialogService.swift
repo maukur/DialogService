@@ -11,13 +11,13 @@ import UIKit
 
 import SwiftEventBus
 
-class DialogService {
+public class DialogService {
     
     private static let instance = DialogService()
     private init() {}
     #if canImport(UIKit)
 
-    static func initialize(getTopViewController: (() -> UIViewController?)? = nil) {
+    public static func initialize(getTopViewController: (() -> UIViewController?)? = nil) {
   
         self.instance.getTopViewController = getTopViewController
      
