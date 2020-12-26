@@ -2,6 +2,12 @@
 
 A Dialog Service for easy way using from buisness logic layer for UIKit and SwiftUI
 
+# Setup Swift PM
+
+Add ‘DialogService’ to your Project’s ‘Swift Packages’ section.
+Input desired version.
+Adding package dependencies to your App.
+
 
 # Usage 
 
